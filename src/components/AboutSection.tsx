@@ -47,22 +47,11 @@ export default function AboutSection() {
               coordinación de operaciones de transporte y flete bajo los más
               altos estándares del sector.
             </p>
-            <p className="font-body text-slate-600 leading-relaxed mb-8">
+            <p className="font-body text-slate-600 leading-relaxed">
               Con sede en Guayaquil, integramos tecnología, logística y talento
               humano para ofrecer soluciones de movilidad urbana confiables,
               seguras y eficientes para conductores y usuarios.
             </p>
-
-            {/* Legal badge */}
-            <div className="inline-flex items-center gap-3 bg-navy text-white px-5 py-3 rounded-xl">
-              <svg className="w-5 h-5 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-              </svg>
-              <div>
-                <p className="font-heading font-bold text-xs text-accent uppercase tracking-wider">Empresa Registrada</p>
-                <p className="font-body text-xs text-slate-300 mt-0.5">RUC: 0993405280001 · Ecuador</p>
-              </div>
-            </div>
           </div>
 
           {/* ── Right: Pillars ── */}
